@@ -578,7 +578,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ **Playing** the song requested by {} via Youtube Music 😜 in Linked Channel".format(
+            caption="▶️ **Playing** the song requested by {} via QueenMusic 😜 in Linked Channel".format(
                 message.from_user.mention()
             ),
         )
@@ -772,7 +772,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @ZauteMusicPlayer to your Group and try again</b>",
+                        "\n\nOr manually add @Raksha_op to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
