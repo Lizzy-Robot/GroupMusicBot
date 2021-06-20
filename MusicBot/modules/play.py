@@ -614,7 +614,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ **Playing** here the song requested by {} via YouTube Music".format(
+            caption="▶️ **Playing** here the song requested by {} via QueenMusic".format(
                 message.from_user.mention()
             ),
         )
@@ -631,7 +631,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "QueenMusic"
     usar = user
     wew = usar.id
     try:
@@ -759,7 +759,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "QueenMusic"
     usar = user
     wew = usar.id
     try:
@@ -796,7 +796,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @ZauteMusicPlayer to your Group and try again</b>",
+                        "\n\nOr manually add @Raksha_op to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
